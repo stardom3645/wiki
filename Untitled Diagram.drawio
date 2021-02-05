@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T06:43:11.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="D_ClJhGzUgs9LmGVIO__" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T07:00:33.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="LZMeznRJ1m29Fizx6zZn" version="14.2.9" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1360" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,6 +312,22 @@
         </mxCell>
         <mxCell id="96" value="System&#xa;version" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
           <mxGeometry x="350.9999999999998" y="461" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xf1U9uU-0acM3JrAMfRI-96" value="&lt;pre style=&quot;box-sizing: border-box ; font-size: 13.6px ; margin-top: 0px ; margin-bottom: 0px ; overflow-wrap: normal ; padding: 16px ; overflow: auto ; line-height: 1.45 ; border-radius: 6px ; word-break: normal ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;font color=&quot;#030303&quot;&gt;    src&lt;br&gt;    ├── assests       &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; sprites, icons, images&lt;/span&gt;&lt;br&gt;    ├── components    &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Shared vue files used to render various generic / widely used components&lt;/span&gt;&lt;br&gt;    ├── config        &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Contains the layout details of the various routes / sections available in the UI&lt;/span&gt;&lt;br&gt;    ├── locales       &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Custom translation keys for the various supported languages&lt;/span&gt;&lt;br&gt;    ├── store         &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; A key-value storage for all the application level state information such as user info, etc&lt;/span&gt;&lt;br&gt;    ├── utils         &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Collection of custom libraries&lt;/span&gt;&lt;br&gt;    ├── views         &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Custom vue files used to render specific components&lt;/span&gt;&lt;br&gt;    ├── ...&lt;br&gt;    └── main.js       &lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-c&quot; style=&quot;box-sizing: border-box&quot;&gt;#&lt;/span&gt; Main entry-point&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65.5" y="733" width="905.5" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="xf1U9uU-0acM3JrAMfRI-97" value="src" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="74.99999999999997" y="999.9999999999999" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xf1U9uU-0acM3JrAMfRI-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;endArrow=none;endFill=0;strokeWidth=3;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.41" y="1060" as="sourcePoint" />
+            <mxPoint x="119.41176470588243" y="1306" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="119.41" y="1190" />
+              <mxPoint x="119.41" y="1190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
