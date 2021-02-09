@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T06:30:18.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="GpwybZ5be-Oxj0ih8raU" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T06:44:47.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="wDOtxpmXnT8O6JgdjfdJ" version="14.3.0" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
         <mxCell id="xhCzv_lBvZcN_g1UsibR-102" value="로그인" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1484" y="682.5" width="200" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xhCzv_lBvZcN_g1UsibR-106" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;/views/dashboard/dashboard.vue&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+        <mxCell id="xhCzv_lBvZcN_g1UsibR-106" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;/views/dashboard/dashboard.vue&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;div style=&quot;text-align: left&quot;&gt;3개의 하위 컴포넌트를 가지고&amp;nbsp;&lt;br&gt;있음. &lt;br&gt;(&lt;span&gt;CapacityDashboard&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;,UsageDashboard,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;OnboardingDashboard)&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
           <mxGeometry x="554" y="930" width="216" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xhCzv_lBvZcN_g1UsibR-109" value="성공&#xa;router에 &quot;path : /dashboard&quot;&#xa;값으로 push" style="text;spacingTop=-5;align=center;fontStyle=1;fontSize=16;" vertex="1" parent="1">
