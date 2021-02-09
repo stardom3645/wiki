@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T04:44:30.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="9haEZZrjnGvxsgevepKa" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T05:02:06.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="40Cn5L8KCFi9duMGKSWV" version="14.3.0" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -313,26 +313,32 @@
         <mxCell id="96" value="System&#xa;version" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
           <mxGeometry x="350.9999999999998" y="461" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-97" value="ON-DEMAND SYSTEM DEVELOPMENT" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" vertex="1" parent="1">
+        <mxCell id="OAEznw6mqqKNIluxj4d9-97" value="ON-DEMAND SYSTEM DEVELOPMENT" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
           <mxGeometry x="849.9999999999999" y="500" width="400" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-98" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="OAEznw6mqqKNIluxj4d9-98" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2" y="640" width="214" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B83939;strokeWidth=2;" edge="1" parent="1" source="OAEznw6mqqKNIluxj4d9-99" target="OAEznw6mqqKNIluxj4d9-103">
+        <mxCell id="OAEznw6mqqKNIluxj4d9-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B83939;strokeWidth=2;" parent="1" source="OAEznw6mqqKNIluxj4d9-99" target="OAEznw6mqqKNIluxj4d9-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-99" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;main.js&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;vue 라이브러리 import&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;App.vue 로드&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;webpack 번들링 시&lt;br&gt;파일간의 관계 파악&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
-          <mxGeometry x="60" y="760" width="170" height="100" as="geometry" />
+        <mxCell id="OAEznw6mqqKNIluxj4d9-99" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;main.js&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;vue 라이브러리 import&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;App.vue 로드&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;webpack 번들링 시&lt;br&gt;파일간의 관계 파악&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="60" y="760" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B83939;strokeWidth=2;" edge="1" parent="1" source="OAEznw6mqqKNIluxj4d9-103" target="OAEznw6mqqKNIluxj4d9-105">
+        <mxCell id="OAEznw6mqqKNIluxj4d9-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B83939;strokeWidth=2;" parent="1" source="OAEznw6mqqKNIluxj4d9-103" target="OAEznw6mqqKNIluxj4d9-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-103" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;app.vue&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;가장먼저 로드되는 최상&lt;br&gt;위 컴포넌트&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&amp;lt;router view/&amp;gt;테그가&lt;br&gt;존재하고, 테그안에 Router&lt;br&gt;인스턴스에 정의된 컴포넌트&lt;br&gt;가 렌더링 됨.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
-          <mxGeometry x="300" y="760" width="200" height="130" as="geometry" />
+        <mxCell id="OAEznw6mqqKNIluxj4d9-103" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;app.vue&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;가장먼저 로드되는 최상&lt;br&gt;위 컴포넌트&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&amp;lt;router view/&amp;gt;테그가&lt;br&gt;존재하고, 테그안에 Router&lt;br&gt;인스턴스에 정의된 컴포넌트&lt;br&gt;가 렌더링 됨.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="310" y="760" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="OAEznw6mqqKNIluxj4d9-105" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;main.js&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;vue 라이브러리&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;App.vue 로드&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;webpack 번들링 시&lt;br&gt;파일간의 관계 파악&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
-          <mxGeometry x="560" y="760" width="170" height="100" as="geometry" />
+        <mxCell id="xhCzv_lBvZcN_g1UsibR-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B83939;strokeWidth=2;" edge="1" parent="1" source="OAEznw6mqqKNIluxj4d9-105" target="xhCzv_lBvZcN_g1UsibR-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OAEznw6mqqKNIluxj4d9-105" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;ui/src/config/router/index.js&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;primate 최초 접속 시&lt;br&gt;&amp;lt;router view/&amp;gt;에 렌더링&lt;br&gt;될 인스턴스가 생성.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="560" y="760" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xhCzv_lBvZcN_g1UsibR-96" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;ui/src/config/router/index.js&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;primate 최초 접속 시&lt;br&gt;&amp;lt;router view/&amp;gt;에 렌더링&lt;br&gt;될 인스턴스가 생성.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="810" y="760" width="200" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
