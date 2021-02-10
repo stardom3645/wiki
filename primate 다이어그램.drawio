@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T16:41:05.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="0ikQ3JUb4qyZsapEUbpq" version="14.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-02-10T16:41:54.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="cRp4lWwUuCUtdJdkxZ94" version="14.3.0" type="github" pages="5">
   <diagram name="구조 및 동작순서" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="45" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#ffffff" math="0" shadow="0">
       <root>
@@ -400,7 +400,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bxwCKCQlACLfjiVtpZ69" name="primate 설치 변경 사항">
-    <mxGraphModel dx="753" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="5Dgw2LKrWyIw52tFb26G-0" />
         <mxCell id="5Dgw2LKrWyIw52tFb26G-1" parent="5Dgw2LKrWyIw52tFb26G-0" />
