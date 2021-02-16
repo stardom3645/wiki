@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T08:56:47.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="thNrMKyRt_w8CxGaLRbI" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T09:00:53.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="8PE9eRCMuttcxOuFWbrw" version="14.3.0" type="github">
   <diagram id="DRKgS_u7C-InQVJtqIbm" name="페이지-1">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,9 @@
         <mxCell id="PKve1FevJ8ncGGKse-gU-17" value="ConfigurationResponse.java" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="650" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PKve1FevJ8ncGGKse-gU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="PKve1FevJ8ncGGKse-gU-19" target="PKve1FevJ8ncGGKse-gU-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PKve1FevJ8ncGGKse-gU-19" value="API&lt;br&gt;{listConfigurations}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="860" width="160" height="60" as="geometry" />
         </mxCell>
@@ -51,6 +54,15 @@
             <mxPoint x="740" y="1320" as="sourcePoint" />
             <mxPoint x="740" y="10" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PKve1FevJ8ncGGKse-gU-28" value="설정 리스트를 다시&lt;br&gt;불러옴." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="800" width="160" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="PKve1FevJ8ncGGKse-gU-29" value="업데이트" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="970" y="120" width="160" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="PKve1FevJ8ncGGKse-gU-30" value="ListView.vue&lt;br&gt;SettingTab.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1020" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
