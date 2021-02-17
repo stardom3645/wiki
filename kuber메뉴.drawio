@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T07:59:23.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="QNzOJurog3HykSCaVcAl" version="14.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-17T09:02:43.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="pmvunq_ax6pDSJ1leOoq" version="14.3.2" type="github" pages="2">
   <diagram id="DRKgS_u7C-InQVJtqIbm" name="페이지-1">
     <mxGraphModel dx="1285" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sWKhFuuiIyD3STFEA7JW" name="페이지-2">
-    <mxGraphModel dx="2681" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-0" />
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-1" parent="YF4E0lVN7Hhh0fhB9PgD-0" />
@@ -85,7 +85,10 @@
           <mxGeometry x="30" y="190" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="kghr15Wnmh2jGqpMc5R4-0" value="&lt;span style=&quot;text-align: left&quot;&gt;saveValue 메서드에서&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;updateConfiguration API호출&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="YF4E0lVN7Hhh0fhB9PgD-3" vertex="1">
-          <mxGeometry x="250" y="90" width="300" height="30" as="geometry" />
+          <mxGeometry x="310" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWsVM3wBgM_GIMozhOPB-73" value="&lt;span style=&quot;text-align: left&quot;&gt;saveValue 메서드에서&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;RefreshFeatures 함수 호출 후&lt;br&gt;listCapabilities API호출" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-3">
+          <mxGeometry x="300" y="420" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YF4E0lVN7Hhh0fhB9PgD-2" source="YF4E0lVN7Hhh0fhB9PgD-4" target="YF4E0lVN7Hhh0fhB9PgD-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -194,8 +197,11 @@
         <mxCell id="QWsVM3wBgM_GIMozhOPB-0" value="ManagementServerImpl.java" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
           <mxGeometry x="370" y="350" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QWsVM3wBgM_GIMozhOPB-69" value="ListCapabilitiesCmd.java" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
-          <mxGeometry x="170" y="350" width="180" height="30" as="geometry" />
+        <mxCell id="QWsVM3wBgM_GIMozhOPB-70" value="&lt;p style=&quot;margin: 6px 0px 0px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Controller&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;ListCapabilitiesCmd.java&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="align=center;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
+          <mxGeometry x="30" y="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QWsVM3wBgM_GIMozhOPB-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YF4E0lVN7Hhh0fhB9PgD-2" source="YF4E0lVN7Hhh0fhB9PgD-4" target="QWsVM3wBgM_GIMozhOPB-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lx2xQSGZo_KzuF0OdhNT-0" value="설정 값 변경" style="rounded=0;whiteSpace=wrap;html=1;" parent="YF4E0lVN7Hhh0fhB9PgD-1" vertex="1">
           <mxGeometry x="-100" y="220" width="120" height="60" as="geometry" />
