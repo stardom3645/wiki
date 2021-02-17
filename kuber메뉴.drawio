@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T07:28:22.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iBo7qkn8f1HEi0uk0yD-" version="14.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-17T07:59:23.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="QNzOJurog3HykSCaVcAl" version="14.3.2" type="github" pages="2">
   <diagram id="DRKgS_u7C-InQVJtqIbm" name="페이지-1">
     <mxGraphModel dx="1285" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sWKhFuuiIyD3STFEA7JW" name="페이지-2">
-    <mxGraphModel dx="3005" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2681" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-0" />
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-1" parent="YF4E0lVN7Hhh0fhB9PgD-0" />
@@ -107,11 +107,12 @@
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-17" value="UserVmServiceImpl.java" style="whiteSpace=wrap;html=1;align=center;" parent="YF4E0lVN7Hhh0fhB9PgD-6" vertex="1">
           <mxGeometry x="370" y="490" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YF4E0lVN7Hhh0fhB9PgD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" parent="YF4E0lVN7Hhh0fhB9PgD-6" source="YF4E0lVN7Hhh0fhB9PgD-7" target="YF4E0lVN7Hhh0fhB9PgD-17" edge="1">
+        <mxCell id="YF4E0lVN7Hhh0fhB9PgD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" parent="YF4E0lVN7Hhh0fhB9PgD-6" target="YF4E0lVN7Hhh0fhB9PgD-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="110" y="505" />
             </Array>
+            <mxPoint x="30" y="505" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-19" value="excute()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YF4E0lVN7Hhh0fhB9PgD-18" vertex="1" connectable="0">
@@ -189,6 +190,12 @@
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-56" value="&lt;p style=&quot;margin: 6px 0px 0px;&quot;&gt;&lt;b&gt;Agent&lt;/b&gt;&lt;/p&gt;" style="align=center;overflow=fill;html=1;dropTarget=0;verticalAlign=bottom;" parent="YF4E0lVN7Hhh0fhB9PgD-6" vertex="1">
           <mxGeometry x="1000" y="715" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWsVM3wBgM_GIMozhOPB-0" value="ManagementServerImpl.java" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
+          <mxGeometry x="370" y="350" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWsVM3wBgM_GIMozhOPB-69" value="ListCapabilitiesCmd.java" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
+          <mxGeometry x="170" y="350" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lx2xQSGZo_KzuF0OdhNT-0" value="설정 값 변경" style="rounded=0;whiteSpace=wrap;html=1;" parent="YF4E0lVN7Hhh0fhB9PgD-1" vertex="1">
           <mxGeometry x="-100" y="220" width="120" height="60" as="geometry" />
