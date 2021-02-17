@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T02:18:22.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="RhppzLppmW7hQGocYBcC" version="14.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-17T02:19:44.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="hen5hYA_eb581iTrcJT5" version="14.3.2" type="github" pages="2">
   <diagram id="DRKgS_u7C-InQVJtqIbm" name="페이지-1">
     <mxGraphModel dx="1208" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,15 +68,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sWKhFuuiIyD3STFEA7JW" name="페이지-2">
-    <mxGraphModel dx="2013" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2142" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-0" />
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-1" parent="YF4E0lVN7Hhh0fhB9PgD-0" />
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-2" value="Primate menu visible/invisible 프로세스" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;verticalAlign=middle;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-1">
-          <mxGeometry x="60" y="100" width="1470" height="860" as="geometry" />
+          <mxGeometry x="60" y="100" width="1850" height="860" as="geometry" />
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-3" value="front-end" style="swimlane;html=1;startSize=20;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-2">
-          <mxGeometry y="20" width="240" height="840" as="geometry" />
+          <mxGeometry y="20" width="620" height="840" as="geometry" />
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;VIEW&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;DeployVM.vuew&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;cmd: &quot;deployVirtualMachine&quot;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-3">
           <mxGeometry x="30" y="70" width="180" height="110" as="geometry" />
@@ -85,7 +85,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-6" value="back-end" style="swimlane;html=1;startSize=20;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-2">
-          <mxGeometry x="240" y="20" width="1230" height="840" as="geometry" />
+          <mxGeometry x="620" y="20" width="1230" height="840" as="geometry" />
         </mxCell>
         <mxCell id="YF4E0lVN7Hhh0fhB9PgD-7" value="&lt;p style=&quot;margin: 6px 0px 0px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Controller&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;DeployVMCmd.java&lt;br&gt;&lt;/p&gt;" style="align=center;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="YF4E0lVN7Hhh0fhB9PgD-6">
           <mxGeometry x="30" y="80" width="180" height="90" as="geometry" />
