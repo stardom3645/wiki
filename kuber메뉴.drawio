@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T01:36:50.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="xmWtJRDrjvY2saBAshqx" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T04:17:18.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="4GxPGjH72-0K2lmOj9VY" version="14.4.2" type="github">
   <diagram id="sWKhFuuiIyD3STFEA7JW" name="페이지-2">
     <mxGraphModel dx="1386" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
@@ -158,9 +158,6 @@
         </mxCell>
         <mxCell id="ybtEaBYc79Pay8zGlQzz-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="YF4E0lVN7Hhh0fhB9PgD-2" source="YF4E0lVN7Hhh0fhB9PgD-7" target="9nsnTSfjWOGKSt32Swmm-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-uuOTyQ5Aw0-R2vqLOoh-1" value="4.15 branch&lt;br&gt;ui/legacy/plugins/cks/cks.js&lt;br&gt;51번 라인 코드를 통해 section추가하는 것 같음." style="rounded=1;whiteSpace=wrap;html=1;" parent="YF4E0lVN7Hhh0fhB9PgD-1" vertex="1">
-          <mxGeometry x="600" y="1200" width="370" height="203.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
