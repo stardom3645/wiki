@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T08:19:29.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="mkJPhhQdYBBgmzQqubOT" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-25T08:19:40.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="cvF4aHRRVdLUJrx8eUr-" version="14.4.3" type="github" pages="3">
   <diagram id="wY-adVekaZgLD2moxx1o" name="primate 구조">
     <mxGraphModel dx="1346" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -107,10 +107,10 @@
           <mxGeometry x="535" y="1250" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-2" value="최상위 컴포넌트" style="fillColor=#fff2cc;strokeColor=#d6b656;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="664" y="1330" width="176" height="60" as="geometry" />
+          <mxGeometry x="664" y="1330" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-3" value="App.vue 로드&#xa;vue 라이브러리 import" style="fillColor=#fff2cc;strokeColor=#d6b656;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="664" y="1250" width="176" height="60" as="geometry" />
+          <mxGeometry x="664" y="1250" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-4" value="index.html" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
           <mxGeometry x="532" y="700" width="130" height="60" as="geometry" />
