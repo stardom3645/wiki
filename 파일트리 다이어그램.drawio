@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T06:06:26.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="NnZXB034qsUqbkVgHATM" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T06:13:16.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="-zmNB4e2dYdhFowNniuv" version="14.4.3" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1346" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -41,6 +41,12 @@
           <mxGeometry x="237" y="455.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bznv0Sb1hatx5xa1z95T-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=25;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="bznv0Sb1hatx5xa1z95T-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bznv0Sb1hatx5xa1z95T-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="17" target="bznv0Sb1hatx5xa1z95T-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bznv0Sb1hatx5xa1z95T-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="17" target="bznv0Sb1hatx5xa1z95T-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17" value="src" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="1" vertex="1">
@@ -253,20 +259,26 @@
         <mxCell id="bznv0Sb1hatx5xa1z95T-131" value="아이콘, 스타일&#xa;config파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="370" y="457" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bznv0Sb1hatx5xa1z95T-132" value="전역적으로 사용되는 구성 요소를 렌더링하는 데 사용되는 vue 파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="bznv0Sb1hatx5xa1z95T-132" value="전역적으로 사용되는 컴포넌트를 렌더링하는 데 사용되는 vue 파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="550" y="810" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bznv0Sb1hatx5xa1z95T-133" value="config" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="420" y="900" width="130" height="60" as="geometry" />
+          <mxGeometry x="420" y="890" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bznv0Sb1hatx5xa1z95T-135" value="컴포넌트의 경로를 정의하고 연결하는데 필요한 section / route 정보" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="550" y="900" width="510" height="60" as="geometry" />
+          <mxGeometry x="550" y="890" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bznv0Sb1hatx5xa1z95T-136" value="store" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="420" y="990" width="130" height="60" as="geometry" />
+          <mxGeometry x="420" y="970" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bznv0Sb1hatx5xa1z95T-137" value="프로젝트의 데이터를 Store를 통해 중앙집중적으로 관리하며&#xa;모든 컴포넌트들이 Store를 사용" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="550" y="990" width="510" height="60" as="geometry" />
+          <mxGeometry x="550" y="970" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bznv0Sb1hatx5xa1z95T-138" value="views" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1050" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bznv0Sb1hatx5xa1z95T-139" value="특정 기능에서 사용되는 컴포넌트를 렌더링하는 데 사용되는 vue파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1050" width="510" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
