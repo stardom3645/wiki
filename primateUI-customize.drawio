@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T08:19:40.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="cvF4aHRRVdLUJrx8eUr-" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-25T08:19:59.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="EaFSVQ4ArYLf2_8t8T5p" version="14.4.3" type="github" pages="3">
   <diagram id="wY-adVekaZgLD2moxx1o" name="primate 구조">
     <mxGraphModel dx="1346" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -17,6 +17,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" source="-hO2jb-t0CAFQ2NI-Cne-111" target="-hO2jb-t0CAFQ2NI-Cne-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2r0cJhkR9INiBLap_QW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MJLNDcAAcJh9wXEjOTjr-1" source="-hO2jb-t0CAFQ2NI-Cne-111" target="m2r0cJhkR9INiBLap_QW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-111" value="public" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
@@ -38,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-115" value="src" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="352" y="850" width="130" height="60" as="geometry" />
+          <mxGeometry x="352" y="810" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-116" value="assets" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
           <mxGeometry x="532" y="540" width="130" height="60" as="geometry" />
@@ -68,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-121" value="components" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="535" y="930" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="890" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-122" value="로고, 이미지 파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
           <mxGeometry x="665" y="540" width="140" height="60" as="geometry" />
@@ -80,37 +83,37 @@
           <mxGeometry x="485" y="457" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-125" value="전역적으로 사용되는 컴포넌트를 렌더링하는 데 사용되는 vue 파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="664" y="930" width="510" height="60" as="geometry" />
+          <mxGeometry x="664" y="890" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-126" value="config" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="535" y="1010" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="970" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-127" value="컴포넌트의 경로를 정의하고 연결하는데 필요한 section / route 정보" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="664" y="1010" width="510" height="60" as="geometry" />
+          <mxGeometry x="664" y="970" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-128" value="store" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="535" y="1090" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="1050" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-129" value="프로젝트의 데이터를 Store를 통해 중앙집중적으로 관리하며&#xa;모든 컴포넌트들이 Store를 사용" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="664" y="1090" width="510" height="60" as="geometry" />
+          <mxGeometry x="664" y="1050" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-130" value="views" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=20;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="535" y="1170" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="1130" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hO2jb-t0CAFQ2NI-Cne-131" value="특정 기능에서 사용되는 컴포넌트를 렌더링하는 데 사용되는 vue파일" style="fillColor=#10739E;strokeColor=none;opacity=30;fontStyle=1;fontSize=16;" parent="MJLNDcAAcJh9wXEjOTjr-1" vertex="1">
-          <mxGeometry x="664" y="1170" width="510" height="60" as="geometry" />
+          <mxGeometry x="664" y="1130" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-0" value="App.vue" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="535" y="1330" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="1290" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-1" value="main.js" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontFamily=Tahoma;fontSize=20;align=center;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="535" y="1250" width="130" height="60" as="geometry" />
+          <mxGeometry x="535" y="1210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-2" value="최상위 컴포넌트" style="fillColor=#fff2cc;strokeColor=#d6b656;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="664" y="1330" width="206" height="60" as="geometry" />
+          <mxGeometry x="664" y="1290" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-3" value="App.vue 로드&#xa;vue 라이브러리 import" style="fillColor=#fff2cc;strokeColor=#d6b656;opacity=30;fontStyle=1;fontSize=16;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
-          <mxGeometry x="664" y="1250" width="206" height="60" as="geometry" />
+          <mxGeometry x="664" y="1210" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m2r0cJhkR9INiBLap_QW-4" value="index.html" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontFamily=Tahoma;fontSize=20;" vertex="1" parent="MJLNDcAAcJh9wXEjOTjr-1">
           <mxGeometry x="532" y="700" width="130" height="60" as="geometry" />
