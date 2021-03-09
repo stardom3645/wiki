@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T05:10:22.336Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="bzywgX0K15ks2lD5YnlO" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T05:14:24.273Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="4KTCNISeqhB5F2ajTboQ" version="14.4.5" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="Page-1">
-    <mxGraphModel dx="1134" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="__XMbqS7DblXaXG2py2k-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="84" width="830" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-2" value="&lt;div style=&quot;text-align: left ; font-size: 16px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;ABLESTACK 클러스터 구성 준비 마법사&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 16px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;ABLESTACK 스토리지센터 및 클라우드센터 클러스터를 구성하기 위해 필요한 다양한 정보 및 구성파일을 준비합니다.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="100" width="720" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-3" value="1. 개요" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-4" value="2. SSH Key 파일" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-5" value="3. Hosts 파일" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-6" value="5. 설정확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-7" value="4. 시간서버" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-8" value="6. 완료" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
