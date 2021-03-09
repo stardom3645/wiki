@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:42:53.126Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="vEN_YE3zIVSGMNVlOUre" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:44:11.409Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="JOZisTYaBxS0CRt3RpRI" version="14.4.5" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="Page-1">
     <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -52,10 +52,10 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-28" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="330" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-29" value="개인 키 저장" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-29" value="개인 키 저장" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="415" y="335" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-30" value="공용 키 저장" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-30" value="공용 키 저장" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="515" y="335" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;" vertex="1" parent="1">
@@ -73,8 +73,14 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. radio 선택 시, 다른 요소 Hide 처리&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 새로운 키 생성 - 저장 버튼 클릭 시 생성과 다운로드&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=13;align=center;" vertex="1" parent="1">
           <mxGeometry x="720" y="310" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-39" value="파일 선택" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="380" y="480" width="70" height="30" as="geometry" />
+        <mxCell id="__XMbqS7DblXaXG2py2k-39" value="다음" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="380" y="490" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-40" value="이전" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-41" value="취소" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="495" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
