@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T05:19:57.262Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="J21mm1-3c5ivliu1yoV3" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T05:29:23.431Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="CBXlTVB5VY7cyg_Tp7Ny" version="14.4.5" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="Page-1">
-    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="454" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,12 @@
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-13" value="&lt;span style=&quot;color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;ABLESTACK의 클러스터를 구성하는 호스트 및 가상머신은 모든 명령을 SSH를 이용해 암호화 하여 전달합니다.&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;원활한 SSH 연결 및 상호 인증을 위해 동일한 SSH Key 설정이 필요합니다. 마법사를 통해 새로운 SSH Key를 생성하여 사용하거나 기존의 SSH Key 파일을 사용하도록 설정할 수 있습니다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#1C1C1C;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="370" y="200" width="630" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-18" value="새로운 키 생성" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;labelBackgroundColor=none;fontSize=13;fontColor=#1C1C1C;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="__XMbqS7DblXaXG2py2k-19" value="키 파일 선택" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;labelBackgroundColor=none;fontSize=13;fontColor=#1C1C1C;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
