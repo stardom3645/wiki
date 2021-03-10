@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T04:44:44.727Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="sgilbpiU-V2o4NJq_78f" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T06:24:46.735Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="TkfxEjnfEz5HhzFmN3-e" version="14.4.6" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="클러스터 구성 준비(마법사)">
     <mxGraphModel dx="1134" dy="640" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="__XMbqS7DblXaXG2py2k-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="154" width="830" height="446" as="geometry" />
+          <mxGeometry x="190" y="154" width="830" height="560" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-2" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;ABLESTACK 클러스터 구성 준비 마법사&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;ABLESTACK 스토리지센터 및 클라우드센터 클러스터를 구성하기 위해 필요한 다양한 정보 및 구성파일을 준비합니다.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#3A5431;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#10140F;" parent="1" vertex="1">
           <mxGeometry x="190" y="154" width="830" height="106" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-8" value="6. 완료" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="210" y="470" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-11" value="" style="endArrow=none;html=1;fontColor=#FCFCFC;entryX=0.203;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="__XMbqS7DblXaXG2py2k-2" edge="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-11" value="" style="endArrow=none;html=1;fontColor=#FCFCFC;entryX=0.203;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.202;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="__XMbqS7DblXaXG2py2k-2" edge="1" source="__XMbqS7DblXaXG2py2k-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="358" y="600" as="sourcePoint" />
             <mxPoint x="640" y="300" as="targetPoint" />
@@ -36,8 +36,8 @@
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-12" value="" style="endArrow=none;html=1;fontColor=#FCFCFC;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="541" as="sourcePoint" />
-            <mxPoint x="1020" y="540" as="targetPoint" />
+            <mxPoint x="360" y="631" as="sourcePoint" />
+            <mxPoint x="1020" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-13" value="&lt;span style=&quot;color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;ABLESTACK의 클러스터를 구성하는 호스트 및 가상머신은 모든 명령을 SSH를 이용해 암호화 하여 전달합니다.&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(21, 21, 21); font-family: redhattext, overpass, overpass, helvetica, arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;원활한 SSH 연결 및 상호 인증을 위해 동일한 SSH Key 설정이 필요합니다. 마법사를 통해 새로운 SSH Key를 생성하여 사용하거나 기존의 SSH Key 파일을 사용하도록 설정할 수 있습니다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#1C1C1C;fontSize=13;" parent="1" vertex="1">
@@ -58,29 +58,17 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-30" value="공용 키 확인" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=center;fillColor=#FFFFFF;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="546" y="405" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="480" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-34" value="파일 선택" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="505" y="485" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-35" value="선택된 파일 없음" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="590" y="490" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-36" value="SSH Key 파일 &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;*&lt;/b&gt;&lt;/font&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="390" y="493.5" width="100" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. radio 선택 시, 다른 요소 Hide 처리&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 새로운 키 생성 - 확인 버튼 클릭 시 &lt;br&gt;모달 창을 통해 생성된 키 확인&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 공개키 파일 업로드 시 내용 확인&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=13;align=center;" parent="1" vertex="1">
           <mxGeometry x="720" y="380" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-39" value="다음" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;arcSize=11;" parent="1" vertex="1">
-          <mxGeometry x="380" y="560" width="50" height="30" as="geometry" />
+          <mxGeometry x="380" y="650" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-40" value="이전" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=13;fontColor=#000000;align=center;arcSize=11;" parent="1" vertex="1">
-          <mxGeometry x="450" y="560" width="50" height="30" as="geometry" />
+          <mxGeometry x="450" y="650" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-41" value="취소" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#0000FF;" parent="1" vertex="1">
-          <mxGeometry x="560" y="565" width="40" height="20" as="geometry" />
+          <mxGeometry x="560" y="655" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="980" width="830" height="446" as="geometry" />
@@ -190,6 +178,15 @@
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-22" value="&lt;span style=&quot;font-size: 14px&quot;&gt;키 생성 완료 메시지&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1876" y="330" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-1" value="공용 키 파일 업로드" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;fontColor=#ffffff;align=left;fillColor=#808080;strokeColor=#808080;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="483" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-3" value="파일 선택" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=center;fillColor=#FFFFFF;strokeColor=#808080;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="783" y="485" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-5" value="&lt;div&gt;-----BEGIN RSA PRIVATE KEY-----&lt;/div&gt;&lt;div&gt;MIIEowIBAAKCAQEAvKgahyuKt9hAr5U1dZFmY7QV4iobVdt9NF4TV7Hhkpli24FD&lt;/div&gt;&lt;div&gt;6Pd9hIIftJrlZIwuDFjwd7ti23l6fpsryj+oh7PvTyZUBrRwg8IE54RkYnExBaX0&lt;/div&gt;&lt;div&gt;uuMBNv0WneGh0GOym5rGPX+visRCA1KOZFiSAkuGEMmWo2c9WuzURWt85yyzxTXC&lt;/div&gt;&lt;div&gt;TuJrYHg7tB319P34cUC9At75uVDRGYLLhkDE4rvFUM3sacZTTOdf96JJrQjISzLw&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="399" y="513" width="490" height="103" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
