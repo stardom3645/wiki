@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T04:10:53.139Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="0oQ_RcVk7amYCVSq-NKA" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T04:44:44.727Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="sgilbpiU-V2o4NJq_78f" version="14.4.6" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="클러스터 구성 준비(마법사)">
     <mxGraphModel dx="1134" dy="640" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -52,10 +52,10 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-28" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="400" y="400" width="279" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-29" value="개인 키 확인" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;" parent="1" vertex="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-29" value="개인 키 확인" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;fontColor=#ffffff;align=center;fillColor=#808080;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="415" y="405" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-30" value="공용 키 확인" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fontSize=13;align=center;fillColor=#FFFFFF;fontColor=#0000CC;" parent="1" vertex="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-30" value="공용 키 확인" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=center;fillColor=#FFFFFF;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="546" y="405" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;align=left;labelBorderColor=none;" parent="1" vertex="1">
@@ -70,7 +70,7 @@
         <mxCell id="__XMbqS7DblXaXG2py2k-36" value="SSH Key 파일 &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;*&lt;/b&gt;&lt;/font&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="390" y="493.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__XMbqS7DblXaXG2py2k-38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. radio 선택 시, 다른 요소 Hide 처리&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 새로운 키 생성 - 확인 버튼 클릭 시 &lt;br&gt;모달 창을 통해 생성된 키 확인&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=13;align=center;" parent="1" vertex="1">
+        <mxCell id="__XMbqS7DblXaXG2py2k-38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. radio 선택 시, 다른 요소 Hide 처리&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 새로운 키 생성 - 확인 버튼 클릭 시 &lt;br&gt;모달 창을 통해 생성된 키 확인&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 공개키 파일 업로드 시 내용 확인&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=13;align=center;" parent="1" vertex="1">
           <mxGeometry x="720" y="380" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="__XMbqS7DblXaXG2py2k-39" value="다음" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#001DBC;fillColor=#0050ef;fontSize=13;fontColor=#ffffff;align=center;arcSize=11;" parent="1" vertex="1">
