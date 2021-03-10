@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T01:14:48.859Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="tU_7VOdKw20GY4vIQFLZ" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T01:32:45.236Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="afWZ_h_YiKZkzEEAkuV1" version="14.4.5" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="클러스터 구성 준비(마법사)">
     <mxGraphModel dx="1334" dy="753" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -163,30 +163,57 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;개인 키 저장 클릭&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1526" y="126" width="154" height="60" as="geometry" />
+          <mxGeometry x="1526" y="108" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-5" target="GMiYerokD48OvthXEgpa-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;공용 키 저장 클릭&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1526" y="224" width="154" height="60" as="geometry" />
+          <mxGeometry x="1526" y="353" width="154" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-10" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;" edge="1" source="GMiYerokD48OvthXEgpa-12" target="GMiYerokD48OvthXEgpa-13" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;키 파일 업로드&lt;br&gt;radio 버튼 클릭&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1246" y="448" width="154" height="60" as="geometry" />
+          <mxGeometry x="1246" y="532" width="154" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;파일 선택&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1526" y="448" width="154" height="60" as="geometry" />
+          <mxGeometry x="1526" y="532" width="154" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-19" target="GMiYerokD48OvthXEgpa-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1914.0000000000005" y="156" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-17" target="GMiYerokD48OvthXEgpa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-17" value="&lt;span style=&quot;font-size: 14px&quot;&gt;ssh-keygen&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1994" y="126" width="154" height="60" as="geometry" />
+          <mxGeometry x="1994" y="108" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-19" target="GMiYerokD48OvthXEgpa-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-19" value="&lt;span style=&quot;font-size: 14px&quot;&gt;개인 키 존재여부 확인&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1764" y="95" width="158" height="122" as="geometry" />
+          <mxGeometry x="1764" y="91" width="158" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-20" target="GMiYerokD48OvthXEgpa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-20" target="GMiYerokD48OvthXEgpa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-20" value="&lt;span style=&quot;font-size: 14px&quot;&gt;공용 키 존재여부 확인&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="336" width="158" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-22" value="&lt;span style=&quot;font-size: 14px&quot;&gt;개인 키 다운로드&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1766" y="231" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-26" target="GMiYerokD48OvthXEgpa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMiYerokD48OvthXEgpa-26" value="&lt;span style=&quot;font-size: 14px&quot;&gt;ssh-keygen&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="353" width="154" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
