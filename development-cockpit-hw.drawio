@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T08:27:26.345Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="xpWxt608_aS7ItcKClnG" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T08:36:53.919Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="JdjHYJtcX8nErRuvS3bK" version="14.4.6" type="github">
   <diagram id="XoaDM2TkfQktanUWAJeV" name="클러스터 구성 준비(마법사)">
     <mxGraphModel dx="1134" dy="640" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -156,10 +156,13 @@
         <mxCell id="GMiYerokD48OvthXEgpa-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;기존 파일 사용&lt;br&gt;radio 버튼 클릭&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1246" y="448" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89EKyDgW7ggEvaJcWjJE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#990000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-13" target="89EKyDgW7ggEvaJcWjJE-18">
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#990000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="89EKyDgW7ggEvaJcWjJE-28" target="89EKyDgW7ggEvaJcWjJE-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2191" y="371" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#990000;" edge="1" parent="1" source="GMiYerokD48OvthXEgpa-13" target="89EKyDgW7ggEvaJcWjJE-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GMiYerokD48OvthXEgpa-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;파일 선택&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1526" y="448" width="154" height="60" as="geometry" />
@@ -228,6 +231,9 @@
         </mxCell>
         <mxCell id="89EKyDgW7ggEvaJcWjJE-22" value="&lt;span style=&quot;font-size: 14px&quot;&gt;ablestack.pub&lt;br&gt;다운로드&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2455" y="224" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="89EKyDgW7ggEvaJcWjJE-28" value="&lt;font style=&quot;font-size: 14px&quot;&gt;업로드하여&lt;br&gt;로컬에 저장&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="448" width="154" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
