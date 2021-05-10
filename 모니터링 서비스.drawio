@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T02:12:03.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="UUzmLKTd_FqSGiT64XK6" version="14.5.8" type="github"><diagram id="D90OiBP_q_Rwkt1dLKAU" name="Page-1">ddHBEoIgEADQr+Gu0FiezerSyUNnRjZhBl0GabS+Ph0wY6wLszwWlgXCinY8W27kFQVoQhMxEnYklOY7Oo0zPD1kLPfQWCU8pStU6gUBk6APJaCPEh2idsrEWGPXQe0i49biEKfdUcdVDW9gA1XN9VZvSjjp9UD3q19ANXKpnGahv5YvyaGTXnKBwxexkrDCIjoftWMBen675V38vtOf1c/FLHTux4YpWM+eJtEHsfIN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-10T02:24:45.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6vSJB14sJCKOMoxaRtg3" version="14.5.8" type="github">
+  <diagram id="D90OiBP_q_Rwkt1dLKAU" name="Page-1">
+    <mxGraphModel dx="1055" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMqY7wuhPn0pXN6j_rTk-1" target="jMqY7wuhPn0pXN6j_rTk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-1" value="Prometheus&lt;br&gt;Target" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-2" value="Jobs/exporters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-5" value="Jobs/exporters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-6" value="Jobs/exporters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-8" value="Collet Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMqY7wuhPn0pXN6j_rTk-10" target="jMqY7wuhPn0pXN6j_rTk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-11" value="Retrieval&lt;br&gt;(검색)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-12" value="TSDB&lt;br&gt;(시계열 데이터 저장소)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-13" value="HTTP Server&lt;br&gt;(API로 데이터 조회)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-15" value="Prometheus Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jMqY7wuhPn0pXN6j_rTk-17" target="jMqY7wuhPn0pXN6j_rTk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-17" value="Grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-19" value="PromQL&lt;br&gt;Visualization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="658" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-21" value="Thanos Side car" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jMqY7wuhPn0pXN6j_rTk-22" target="jMqY7wuhPn0pXN6j_rTk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqY7wuhPn0pXN6j_rTk-22" value="Thanos Query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
