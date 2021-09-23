@@ -5,7 +5,7 @@ Skydive는 실시간 네트워크 토폴로지 및 프로토콜 분석기로써 
 
 Skydive agents는 포괄적인 분석을 위해 토폴로지 정보와 flows 정보를 수집한 후 analyzer에 제공합니다.
 
-![](https://github.com/skydive-project/skydive.network/raw/images/overview.gif)
+![](https://github.com/stardom3645/wiki/blob/main/wiki-img/ablestack-skydive-ui.png)
 
 ## Key features
 
