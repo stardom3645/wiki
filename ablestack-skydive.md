@@ -1,26 +1,44 @@
 # ABLESTACK-Skydive
 
-SkydiveëŠ” ì‹¤ì‹œê°„ ë„¤íŠ¸ì›Œí¬ í† í´ë¡œì§€ ë° í”„ë¡œí† ì½œ ë¶„ì„ê¸°ë¡œì¨ ë„¤íŠ¸ì›Œí¬ ì¸í”„ë¼ì—ì„œ ì¼ì–´ë‚˜ëŠ” ì¼ì„ í¬ê´„ì ìœ¼ë¡œ ì´í•´í•˜ëŠ” ë°©ë²•ì„ ì œê³µí•˜ëŠ” ê²ƒì„ ëª©í‘œë¡œ í•©ë‹ˆë‹¤.
+ABLESTACK-Skydive´Â ½Ç½Ã°£ ³×Æ®¿öÅ© ÅäÆú·ÎÁö ¹× ÇÁ·ÎÅäÄÝ ºÐ¼®±â·Î½á ³×Æ®¿öÅ© ÀÎÇÁ¶ó¿¡¼­ ÀÏ¾î³ª´Â ÀÏÀ» Æ÷°ýÀûÀ¸·Î ÀÌÇØÇÏ´Â ¹æ¹ýÀ» Á¦°øÇÏ´Â °ÍÀ» ¸ñÇ¥·Î ÇÕ´Ï´Ù.
 
 
-Skydive agentsëŠ” í¬ê´„ì ì¸ ë¶„ì„ì„ ìœ„í•´ í† í´ë¡œì§€ ì •ë³´ì™€ flows ì •ë³´ë¥¼ ìˆ˜ì§‘í•œ í›„ analyzerì— ì œê³µí•©ë‹ˆë‹¤.
+ABLESTACK-Skydive´Â ¿¡ÀÌÀüÆ®·ÎºÎÅÍ ³×Æ®¿öÅ© ÀÌº¥Æ®¸¦ ¼ö½ÅÇÏ¿© ³×Æ®¿öÅ© ÅäÆú·ÎÁö¸¦ Ç¥½ÃÇÕ´Ï´Ù.
 
-![](https://github.com/stardom3645/wiki/blob/main/wiki-img/ablestack-skydive-ui.png)
+![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-ui-main.png?raw=true)
 
 ## Key features
 
-* ë„¤íŠ¸ì›Œí¬ í† í´ë¡œì§€ ë° flows ìº¡ì²˜
-* ë„¤íŠ¸ì›Œí¬ í† í´ë¡œì§€ ë° íë¦„ì˜ ê¸°ë¡
-* VM ì¸í”„ë¼ ì§€ì›
-* í† í´ë¡œì§€ ë° flowsì— ëŒ€í•œ í†µí•© ì¿¼ë¦¬ ì–¸ì–´(Gremlin)
-* ì›¹ ë° ëª…ë ¹ì¤„ ì¸í„°íŽ˜ì´ìŠ¤
+* ³×Æ®¿öÅ© ÅäÆú·ÎÁö ¹× flows Ä¸Ã³
+* VM ÀÎÇÁ¶ó Áö¿ø
+* ¸ÞÅ¸µ¥ÀÌÅÍ °Ë»öÀ» ÅëÇÑ ÇÏÀÌ¶óÀÌÆ® ±â´É
 
 
 ## Tutorials
 
-Skydive tutorials can be found here:
+ - ½ÃÀÛÇÏ±â
+   - À¥ UI
+     - ABLESTACK-SkydiveÀÇ ¼³Ä¡°¡ ¿Ï·áµÈ ÈÄ Æ÷Æ® 8082¸¦ ÅëÇØ Web UI¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù. À¥ ºê¶ó¿ìÀú¿¡¼­ http://{moldÀÇ ipv4 ÁÖ¼Ò}:8082¿¡ Á¢¼ÓÇÏ¸é ÅäÆú·ÎÁö°¡ ³ªÅ¸³³´Ï´Ù.
+   - ÅäÆú·ÎÁö È­¸é ±¸¼º
+     - ÅäÆú·ÎÁö´Â °èÃþÀ¸·Î ±¸ºÐµÇ¾î ÀÖÀ¸¸ç ³ëµå(Node)µéÀº ÇØ´çµÇ´Â °èÃþ¿¡ ±×·ìÇüÅÂ·Î À§Ä¡ÇØ ÀÖ½À´Ï´Ù.
+     - ³ëµå(Node)µéÀÇ °ü°è´Â ¿§Áö(Edge)·Î Ç¥½ÃµÇ¸ç Ownership °ü°è¸¦ Ç¥ÇöÇÏ°Å³ª µ¥ÀÌÅÍ Èå¸§À» ³ªÅ¸³À´Ï´Ù.
+     - ±¸¼º¿ä¼ÒÀÇ ¸ÞÅ¸µ¥ÀÌÅÍ¸¦ È®ÀÎÇÏ´Â ¹æ¹ýÀº ³ëµå ¹× ¿§Áö¸¦ Å¬¸¯ÇÒ °æ¿ì UIÀÇ ¿À¸¥ÂÊ¿¡¼­ È®ÀÎÇÒ ¼ö ÀÖ½À´Ï´Ù.
+   - ³×Æ®¿öÅ© Á¤º¸ ¼ö½Å
+     - ABLESTACK-Skydive Agent´Â °¢ ³×Æ®¿öÅ© Á¤º¸¸¦ ¼öÁýÇÏ´Â ¿©·¯ Probe·Î ÀÌ·ç¾îÁ® ÀÖÀ¸¸ç ±âº»ÀûÀ¸·Î NetLINK, LibVirt, LLDP, Socket Information Probe°¡ È°¼ºÈ­ µÇ¾îÀÖ½À´Ï´Ù.
+     - NetLINK Probe¸¦ ÅëÇÑ ³×Æ®¿öÅ© Á¤º¸ÀÇ ¾÷µ¥ÀÌÆ® ÁÖ±â´Â 30ÃÊÀÔ´Ï´Ù.
+     - ½ºÀ§Ä¡ÀÇ Á¤º¸´Â LLDP Probe¸¦ ÅëÇØ ¼öÁýµÇ´Âµ¥ ¸ÕÀú ½ºÀ§Ä¡¿¡¼­ LLDP ±â´ÉÀ» È°¼ºÈ­ ÇÏ¿©¾ß ÇÕ´Ï´Ù. ½ºÀ§Ä¡°¡ LLDP Á¤º¸¸¦ ¼Û½ÅÇÏ¸é ABLESTACK-SkydiveÀÇ Probe¿Í °¢ Host¿¡ ¼³Ä¡µÈ "lldpd ÆÐÅ°Áö"¸¦ È°¿ëÇÏ¿© Á¤º¸¸¦ ¼ö½ÅÇÕ´Ï´Ù.
 
-* http://skydive.network/tutorials/first-steps-1.html
+ - Ä¸Ã³
+   - Ä¸Ã³°¡ ½ÃÀÛµÇ¸é Ä¸Ã³µÈ ÀÎÅÍÆäÀÌ½º¿¡ Ä¸Ã³°¡ È°¼º »óÅÂÀÓÀ» ³ªÅ¸³»´Â 'Ä«¸Þ¶ó ¸ð¾ç'ÀÌ Ç¥½ÃµË´Ï´Ù.
+   - Ä¸Ã³¸¦ ¼³Á¤ÇÏ±â À§ÇØ¼­´Â ÇØ´ç ³ëµå¸¦ ¿À¸¥ÂÊ ¸¶¿ì½º·Î Å¬¸¯ÇÏ¿© "Capture"¸¦ ¼±ÅÃÇÏ°Å³ª ¿ìÃø »ó´Ü¿¡ À§Ä¡ÇÑ "Ä«¸Þ¶ó ¸ð¾ç"À» Å¬¸¯ÇÏ¿© ¼³Á¤ÇÕ´Ï´Ù.
+   - Ä¸Ã³¸¦ ÇÒ ¼ö ÀÖ´Â ´ë»ó¿¡ Á¦ÇÑÀÌ ÀÖ½À´Ï´Ù. NodeÀÇ Å¸ÀÔÀÌ device, bridge, vlanÀÏ °æ¿ì Ä¸Ã³ ±â´ÉÀ» È°¼ºÈ­ ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+   - Ä¸Ã³ »èÁ¦´Â Ä¸Ã³°¡ È°¼ºÈ­µÈ ³ëµå¸¦ ¿À¸¥ÂÊ ¸¶¿ì½º·Î Å¬¸¯ÇÏ¿© "Delete Captures"¸¦ ¼±ÅÃÇÏ°Å³ª UI ¿ìÃø¿¡ ÀÖ´Â ¾ÆÄÚµð¾ð ¸Þ´º Áß "Captures"¸¦ Å¬¸¯ÇÑ ÈÄ »èÁ¦ÇÒ Ä¸Ã³¸¦ ¼±ÅÃÇÏ¿© »èÁ¦ÇÕ´Ï´Ù. Ä¸Ã³¸¦ »èÁ¦ÇÏÁö ¾Ê°í ³×Æ®¿öÅ© Á¤º¸°¡ º¯°æµÇ¾î ¼­ºñ½º¸¦ Àç½ÃÀÛÇÒ °æ¿ì Error ¸Þ½ÃÁö°¡ ¹ß»ýÇÒ ¼ö ÀÖÀ¸¹Ç·Î »ç¿ëÇÏÁö ¾Ê´Â Ä¸Ã³´Â »çÀü¿¡ »èÁ¦µÇ¾î¾ß ÇÕ´Ï´Ù.
+   
+- Flow table
+    - Ä¸Ã³°¡ Á¤»óÀûÀ¸·Î È°¼ºÈ­µÇ¸é ¿ìÃø ¾ÆÄÚµð¾ð ¸Þ´º¿¡ Flow tableÀÌ ³ªÅ¸³³´Ï´Ù.
+    - Flow tableÀÌ ·ÎµùµÇ´Â µ¥ Á¤º¸·®¿¡ µû¶ó 10ÃÊ ÀÌ»óÀÇ ½Ã°£ÀÌ °É¸®´Â °æ¿ìµµ ÀÖ½À´Ï´Ù.
+    - Flow table ¸Þ´º »ó´Ü¿¡ "View Columns"¸¦ Å¬¸¯ÇÏ¸é Å×ÀÌºí¿¡ Ç¥½ÃÇÒ ÄÃ·³À» ¼±ÅÃÇÒ ¼ö ÀÖ½À´Ï´Ù.
+    - Flow tableÀÇ »ç¿ë ¿¹·Î Flow tableÀ» ÅëÇØ Ä¸Ã³ È°¼ºÈ­µÈ ³×Æ®¿öÅ©(Network A)¿¡¼­ Network B »çÀÌÀÇ ¿¬°á È®ÀÎ ¶Ç´Â µ¥ÀÌÅÍ ÀÌµ¿·® µîÀ» È®ÀÎÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
 ## Get involved
 
