@@ -1,6 +1,6 @@
 # ABLESTACK-Skydive
 
-ABLESTACK-Skydive는 실시간 네트워크 토폴로지 및 프로토콜 분석기로써 네트워크 인프라에서 일어나는 일을 포괄적으로 이해하는 방법을 제공하는 것을 목표로 합니다.
+ABLESTACK-Skydive는 실시간 네트워크 토폴로지 및 프로토콜 분석기로써 네트워크 인프라에서 일어나는 일을 포괄적으로 이해할 수 있도록 정보를 제공하는 것을 목표로 합니다.
 
 
 ABLESTACK-Skydive는 에이전트로부터 네트워크 이벤트를 수신하여 네트워크 토폴로지를 표시합니다.
@@ -27,6 +27,28 @@ ABLESTACK-Skydive는 에이전트로부터 네트워크 이벤트를 수신하여 네트워크 토폴로지�
      - ABLESTACK-Skydive Agent는 각 네트워크 정보를 수집하는 여러 Probe로 이루어져 있으며 기본적으로 NetLINK, LibVirt, LLDP, Socket Information Probe가 활성화 되어있습니다.
      - NetLINK Probe를 통한 네트워크 정보의 업데이트 주기는 30초입니다.
      - 스위치의 정보는 LLDP Probe를 통해 수집되는데 먼저 스위치에서 LLDP 기능을 활성화 하여야 합니다. 스위치가 LLDP 정보를 송신하면 ABLESTACK-Skydive의 Probe와 각 Host에 설치된 "lldpd 패키지"를 활용하여 정보를 수신합니다.
+
+  - 스위치 정보 수집
+    - ABLESTACK-Skydive는 LLDP를 사용하여 스위치 정보를 수집하고 분석할 수 있습니다. 이를 위해 추가 설정이 필요합니다.
+    - 제조사 별 스위치의 LLDP(Link Layer Discovery Protocol) 활성화
+      - Mellanox
+        ~~~
+        admin [standalone: master] > enable
+        admin [standalone: master] # configure terminal
+        admin [standalone: master] (config) # lldp				## lldp 활성화
+        admin [standalone: master] (config) # show lldp local	## lldp 활성화 확인
+        ~~~      
+      - Cisco
+        ~~~
+        switch# configure terminal
+        switch(config)# lldp run								## lldp 활성화
+        switch(config)# show lldp								## lldp 활성화 확인
+        ~~~
+    - lldpd 서비스 실행
+      - ABLESTACK-Skydive Agent가 설치된 각 호스트에서 lldpd 서비스를 재시작 합니다.
+        ~~~
+        systemctl restart lldpd.service
+        ~~~
 
  - 트래픽 캡처
    - 캡처가 시작되면 캡처된 인터페이스에 캡처가 활성 상태임을 나타내는 '카메라 모양'이 표시됩니다.
