@@ -32,6 +32,7 @@ ABLESTACK-Skydive는 에이전트로부터 네트워크 이벤트를 수신하여 네트워크 토폴로지�
    - 캡처가 시작되면 캡처된 인터페이스에 캡처가 활성 상태임을 나타내는 '카메라 모양'이 표시됩니다.
    ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-camera.png?raw=true)
    - 캡처를 설정하기 위해서는 해당 노드를 오른쪽 마우스로 클릭하여 "Capture"를 선택하거나 우측 상단에 위치한 "카메라 모양"을 클릭하여 설정합니다.
+   ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-mouse-click-button.png?raw=true)
    ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-button.png?raw=true)
    - 캡처를 할 수 있는 대상에 제한이 있습니다. Node의 타입이 device, bridge, vlan일 경우 캡처 기능을 활성화 할 수 있습니다.
    - 캡처 삭제는 캡처가 활성화된 노드를 오른쪽 마우스로 클릭하여 "Delete Captures"를 선택하거나 UI 우측에 있는 아코디언 메뉴 중 "Captures"를 클릭한 후 삭제할 캡처를 선택하여 삭제합니다. 캡처를 삭제하지 않고 네트워크 정보가 변경되어 서비스를 재시작할 경우 Error 메시지가 발생할 수 있으므로 사용하지 않는 캡처는 사전에 삭제되어야 합니다.
