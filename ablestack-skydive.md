@@ -29,7 +29,7 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
      - 스위치의 정보는 LLDP Probe를 통해 수집되는데 먼저 스위치에서 LLDP 기능을 활성화 하여야 합니다. 스위치가 LLDP 정보를 송신하면 ABLESTACK-Skydive의 Probe와 각 Host에 설치된 "lldpd 패키지"를 활용하여 정보를 수신하여 사용자에게 제공합니다.
 
   - 스위치 정보 수집
-    - ABLESTACK-Skydive는 LLDP를 사용하여 스위치 정보를 수집하고 분석할 수 있습니다. 이를 위해 추가 설정이 필요합니다.
+    - ABLESTACK-Skydive는 LLDP를 사용하여 스위치 정보를 수집하고 분석할 수 있습니다. 스위치 정보가 나타나지 않을 경우 이를 해결하기 위해 추가 설정이 필요합니다.
     - 제조사 별 스위치의 LLDP(Link Layer Discovery Protocol) 활성화
       - Mellanox
         ~~~
