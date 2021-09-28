@@ -3,8 +3,7 @@
 ABLESTACK-Skydive는 실시간 네트워크 토폴로지 및 프로토콜 분석기로써 네트워크 인프라에서 일어나는 일을 포괄적으로 이해할 수 있도록 정보를 제공하는 것을 목표로 합니다.
 
 
-ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 네트워크 토폴로지를 표시합니다.
-
+ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 네트워크 토폴로지를 표시합니다.<br/><br/>
 ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-ui-main.png?raw=true)
 
 ## Key features
@@ -53,10 +52,13 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
 
  - 트래픽 캡처
    - 캡처가 시작되면 캡처된 인터페이스에 캡처가 활성 상태임을 나타내는 '카메라 모양'이 표시됩니다.
-   ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-camera.png?raw=true)
+   ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-camera.png?raw=true)<br/><br/>
+   
    - 캡처를 설정하기 위해서는 해당 노드를 오른쪽 마우스로 클릭하여 "Capture"를 선택하거나 우측 상단에 위치한 "카메라 모양"을 클릭하여 설정합니다.
    ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-mouse-click-button.png?raw=true)
    ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-capture-button.png?raw=true)
+   <br/><br/>
+
    - 캡처를 할 수 있는 대상에 제한이 있습니다. Node의 타입이 device, bridge, vlan일 경우 캡처 기능을 활성화 할 수 있습니다.
    - 캡처 삭제는 캡처가 활성화된 노드를 오른쪽 마우스로 클릭하여 "Delete Captures"를 선택하거나 UI 우측에 있는 아코디언 메뉴 중 "Captures"를 클릭한 후 삭제할 캡처를 선택하여 삭제합니다. 캡처를 삭제하지 않고 네트워크 정보가 변경되어 서비스를 재시작할 경우 Error 메시지가 발생할 수 있으므로 사용하지 않는 캡처는 사전에 삭제되어야 합니다.
    
@@ -64,8 +66,9 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
     - 캡처가 정상적으로 활성화되면 우측 아코디언 메뉴에 Flow table이 나타납니다.
     - Flow table이 로딩되는 데 정보량에 따라 10초 이상의 시간이 걸리는 경우도 있습니다.
     - Flow table 메뉴 상단에 "View Columns"를 클릭하면 테이블에 표시할 컬럼을 선택할 수 있습니다.
-    - Flow table의 사용 예로 Flow table을 통해 캡처가 활성화된 네트워크(Network A)에서 Network B 사이의 연결성 확인 또는 데이터 이동량 등을 확인할 수 있습니다.
-
+    - Flow table의 사용 예로 Flow table을 통해 캡처가 활성화된 네트워크(Network A)에서 Network B 사이의 연결성 확인 또는 데이터 이동량 등을 확인할 수 있습니다.<br/><br/>
     ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-flowTable.png?raw=true)
+    
+
 
 
