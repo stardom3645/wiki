@@ -62,7 +62,7 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
    - 캡처를 할 수 있는 대상에 제한이 있습니다. Node의 타입이 device, bridge, vlan일 경우 캡처 기능을 활성화 할 수 있습니다.
    - 캡처 삭제는 캡처가 활성화된 노드를 오른쪽 마우스로 클릭하여 "Delete Captures"를 선택하거나 UI 우측에 있는 아코디언 메뉴 중 "Captures"를 클릭한 후 삭제할 캡처를 선택하여 삭제합니다. 캡처를 삭제하지 않고 네트워크 정보가 변경되어 서비스를 재시작할 경우 Error 메시지가 발생할 수 있으므로 사용하지 않는 캡처는 사전에 삭제되어야 합니다.
    
-- Flow table
+  - Flow table
     - 캡처가 정상적으로 활성화되면 우측 아코디언 메뉴에 Flow table이 나타납니다.
     - Flow table이 로딩되는 데 정보량에 따라 10초 이상의 시간이 걸리는 경우도 있습니다.
     - Flow table 메뉴 상단에 "View Columns"를 클릭하면 테이블에 표시할 컬럼을 선택할 수 있습니다.
@@ -70,5 +70,24 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
     ![](https://github.com/stardom3645/wiki/blob/main/skydive-img/ablestack-skydive-flowTable.png?raw=true)
     
 
+## Resolve issue
+  - 스위치 정보 오류
+    - 스위치 정보가 정상적으로 나타나지 않을 때는 lldpd를 재시작하여야 합니다.
+      - Agnet
+        ~~~
+        # systemctl status lldpd.service								## 서비스 상태 확인
+        # systemctl restart lldpd-agent.service					## 서비스 재시작
+        ~~~
 
-
+  - 서비스 재시작
+    - skydive.yml의 내용을 변경하였거나 데이터가 정상적으로 토폴로지에 나타나지 않을 때는 ABLESTACK-Skydive를 재시작하여야 합니다.
+      - Agnet
+        ~~~
+        # systemctl status skydive-agent.service								## 서비스 상태 확인
+        # systemctl restart skydive-agent.service								## 서비스 재시작
+        ~~~
+      - Analyzer
+        ~~~
+        # systemctl status skydive-analyzer.service								## 서비스 상태 확인
+        # systemctl restart skydive-analyzer.service							## 서비스 재시작
+        ~~~
