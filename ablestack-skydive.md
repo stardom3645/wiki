@@ -79,7 +79,7 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
         # systemctl restart lldpd-agent.service								  ## 서비스 재시작
         ~~~
 
-  - 서비스 재시작
+  - 새로운 설정 적용 및 토폴로지 오류
     - skydive.yml의 내용을 변경하였거나 데이터가 정상적으로 토폴로지에 나타나지 않을 때는 ABLESTACK-Skydive를 재시작하여야 합니다.
       - Agnet
         ~~~
