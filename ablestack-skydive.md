@@ -75,8 +75,8 @@ ABLESTACK-Skydive Analyzer는 Agent로부터 네트워크 이벤트를 수신하여 아래와 같은 
     - 스위치 정보가 정상적으로 나타나지 않을 때는 lldpd를 재시작하여야 합니다.
       - Agnet
         ~~~
-        # systemctl status lldpd.service								## 서비스 상태 확인
-        # systemctl restart lldpd-agent.service					## 서비스 재시작
+        # systemctl status lldpd.service								      ## 서비스 상태 확인
+        # systemctl restart lldpd-agent.service								  ## 서비스 재시작
         ~~~
 
   - 서비스 재시작
