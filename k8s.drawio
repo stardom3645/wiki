@@ -1,14 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T01:08:23.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="96To_Kv00OPX4cqy4LB6" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T01:12:25.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OXk9beN5RQ4EPFwxZABh" version="16.0.0" type="github">
   <diagram id="-50MVAtP38mJDLCLxDI0" name="Page-1">
     <mxGraphModel dx="1134" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Kg5q8fjMB3Q2rien57C7-1" value="클러스터&lt;br&gt;구성&amp;nbsp;도구" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="80" height="80" as="geometry" />
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;&lt;span&gt;클러스터&lt;/span&gt;&lt;br&gt;&lt;span&gt;구성&amp;nbsp;도구&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Kg5q8fjMB3Q2rien57C7-2" value="클러스터&lt;br&gt;구성&amp;nbsp;도구" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="80" height="80" as="geometry" />
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Kg5q8fjMB3Q2rien57C7-5" target="Kg5q8fjMB3Q2rien57C7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-5" value="kubespray" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Kg5q8fjMB3Q2rien57C7-6" target="Kg5q8fjMB3Q2rien57C7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-6" value="kubeadm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-7" value="minikube" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-8" value="kops" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-9" value="Ansible을 이용하여&lt;br&gt;프로비저닝 및 관리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg5q8fjMB3Q2rien57C7-11" value="Mold에서 클러스터&lt;br&gt;구성 시 사용" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
