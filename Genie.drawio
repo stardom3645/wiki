@@ -1,31 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T07:26:21.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="byulDpznTNmaqw5uvMAw" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T08:01:28.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KJkAMtlP7io0PTpLJQhs" version="16.4.5" type="github">
   <diagram id="2bAznApdGgNUuWqxyC43" name="페이지-1">
-    <mxGraphModel dx="593" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="725" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uKwqtShbSjY22pOxoT1e-22" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="440" y="310" width="160" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="uKwqtShbSjY22pOxoT1e-11" value="&lt;div style=&quot;font-size: 11px&quot;&gt;...&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;playbook&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;sample&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-22">
-          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uKwqtShbSjY22pOxoT1e-14" value="Playbook" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-22">
-          <mxGeometry width="160" height="130" as="geometry" />
+        <mxCell id="uKwqtShbSjY22pOxoT1e-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="uKwqtShbSjY22pOxoT1e-27" target="uKwqtShbSjY22pOxoT1e-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-27" value="Host 인벤토리" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="230" y="310" width="160" height="167" as="geometry" />
+          <mxGeometry x="407" y="380" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-31" value="Inventory&lt;br&gt;sample&lt;br&gt;&lt;br&gt;vm1&lt;br&gt;vm2&lt;br&gt;vm3&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-27">
           <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="uKwqtShbSjY22pOxoT1e-37" value="Ansible Mngt Node" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="290" y="20" width="220" height="230" as="geometry" />
+        <mxCell id="uKwqtShbSjY22pOxoT1e-37" value="Mold" style="swimlane;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="690" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="uKwqtShbSjY22pOxoT1e-34" value="Mold" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-37">
-          <mxGeometry x="30" y="40" width="160" height="167" as="geometry" />
+        <mxCell id="uKwqtShbSjY22pOxoT1e-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" edge="1" parent="uKwqtShbSjY22pOxoT1e-37" source="uKwqtShbSjY22pOxoT1e-47" target="uKwqtShbSjY22pOxoT1e-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="280" />
+              <mxPoint x="590" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="uKwqtShbSjY22pOxoT1e-35" value="Genie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-34">
+        <mxCell id="uKwqtShbSjY22pOxoT1e-47" value="Mold API" style="swimlane;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-37">
+          <mxGeometry x="10" y="40" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-48" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;listVirtualMachines&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-47">
+          <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-43" value="Genie (Ansible Mngt Node)" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-37">
+          <mxGeometry x="260" y="40" width="420" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-41" value="AWX" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-43">
+          <mxGeometry x="250" y="40" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-42" value="&lt;div style=&quot;font-size: 11px&quot;&gt;Ansible 플랫폼 관리&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-41">
+          <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="uKwqtShbSjY22pOxoT1e-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-39" value="Playbook" style="swimlane;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="602" y="380" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-40" value="&lt;div style=&quot;font-size: 11px&quot;&gt;...&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;playbook&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;sample&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-39">
           <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
