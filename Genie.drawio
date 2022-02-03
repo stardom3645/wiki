@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T08:47:38.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="dWroaa-QIGHlFsiT2k8s" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T08:52:15.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="wmejkCmF-j2Dwyhy67p5" version="16.4.5" type="github">
   <diagram id="2bAznApdGgNUuWqxyC43" name="페이지-1">
     <mxGraphModel dx="979" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -11,10 +11,13 @@
           <mxGeometry x="20" y="40" width="420" height="490" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-41" value="AWX" style="swimlane;fontSize=11;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-43">
-          <mxGeometry x="240" y="40" width="160" height="170" as="geometry" />
+          <mxGeometry x="240" y="40" width="160" height="420" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-42" value="&lt;div style=&quot;font-size: 11px&quot;&gt;Ansible 플랫폼 관리&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-41">
-          <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-62" value="&lt;div style=&quot;font-size: 11px&quot;&gt;Project&lt;br&gt;(playbook 논리적&amp;nbsp; 모음)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-41">
+          <mxGeometry x="20" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-52" value="Ansible" style="swimlane;fontSize=11;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-43">
           <mxGeometry x="20" y="40" width="200" height="420" as="geometry" />
@@ -37,8 +40,13 @@
         <mxCell id="uKwqtShbSjY22pOxoT1e-48" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;listVirtualMachines&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-47">
           <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="uKwqtShbSjY22pOxoT1e-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;startArrow=classic;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uKwqtShbSjY22pOxoT1e-57" target="uKwqtShbSjY22pOxoT1e-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-57" value="Git" style="swimlane;fontSize=11;fillColor=#bac8d3;strokeColor=#23445d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="90" y="390" width="160" height="170" as="geometry" />
+          <mxGeometry x="540" y="650" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="uKwqtShbSjY22pOxoT1e-58" value="&lt;div style=&quot;font-size: 11px&quot;&gt;git repository&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="uKwqtShbSjY22pOxoT1e-57">
           <mxGeometry x="20" y="40" width="120" height="110" as="geometry" />
