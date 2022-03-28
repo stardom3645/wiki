@@ -1,0 +1,47 @@
+---
+- name: Genie VM 템플릿 배포
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Install packages
+      dnf:
+        name:
+          - conntrack
+          - make
+          - wget
+          - git 
+          - cloud-init
+        state: latest
+      delegate_to: localhost
+
+    - name: Install Docker-ce-1
+      dnf:
+        name:
+          - podman 
+          - buildah
+        state: absent
+      delegate_to: localhost
+
+    - name: Install Docker-ce-2
+      shell: dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+      delegate_to: localhost
+
+    - name: Install Docker-ce-3
+      dnf:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+        state: latest
+      delegate_to: localhost
+
+    - name: Install Docker-ce-4
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+        masked: no
+
+
+    
+
